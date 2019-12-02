@@ -157,7 +157,7 @@ a:hover {
   width: 100%;
 }
 
-#panel {
+#panel, #panel-two, #panel-three, #panel-four {
   background: rgb(255, 255, 255, 0.6);
   border-bottom: 1px solid #d9e6f2;
   float: left;

@@ -10,15 +10,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 'Karla', sans-serif;
+  font: normal 100%/1.3 Karla, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-::-webkit-scrollbar-thumb:vertical {
-  background: #eeccdd;
+::-webkit-scrollbar-thumb {
+  background: #ecd;
 }
 
 ::-webkit-scrollbar {
@@ -27,24 +27,19 @@ html {
 
 body {
   background: #fff;
-  background-image: url('https://i.imgur.com/vb5JvBg.png');
-  color: #555555;
-  cursor: url(https://i.imgur.com/lhPqll6.png), progress;
+  background-image: url("https://i.imgur.com/vb5JvBg.png");
+  color: #555;
+  cursor: url("https://i.imgur.com/lhPqll6.png"), progress;
   font-size: 1rem;
-  font-weight: 400;
   margin: 0;
 }
 
-b {
-  font-weight: 700;
-}
-
 a {
-  color: #ff99bb;
-  text-decoration:  none;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  color: #f9b;
+  text-decoration: none;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 a:hover {
@@ -52,28 +47,27 @@ a:hover {
 }
 
 .bonbon {
-  font-family: 'Sacramento', cursive;
+  font-family: Sacramento, cursive;
   font-size: 2rem;
 }
 
 #links {
   background: #8cb3d9;
-  border-bottom: 3px solid #eeccdd;
-  font-size: 0.9rem;
+  border-bottom: 3px solid #ecd;
+  font-size: .9rem;
   padding-bottom: 13px;
   padding-top: 13px;
   position: fixed;
   text-align: left;
   text-transform: uppercase;
-  top: 0px;
   width: 100%;
   z-index: 1;
 }
 
 .title {
-  background: #ffffff;
+  background: #fff;
   border-radius: 100px;
-  color: #000000;
+  color: #000;
   display: inline-block;
   margin-left: 10px;
   margin-right: 20px;
@@ -89,25 +83,24 @@ a:hover {
 
 .navigation {
   display: inline-block;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .navigation-title {
   background: none;
-  color: #ffffff;
+  color: #fff;
   border: none;
   display: inline-block;
-  font-family: 'Karla', sans-serif;
-  font-size: 0.9rem;
+  font-family: Karla, sans-serif;
+  font-size: .9rem;
   margin-right: 10px;
-  padding: 0px;
   text-align: center;
   text-transform: uppercase;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .navigation:hover .navigation-content {
@@ -115,7 +108,7 @@ a:hover {
 }
 
 .navigation:hover .navigation-title {
-  color: #eeccdd;
+  color: #ecd;
 }
 
 .navigation-content {
@@ -127,28 +120,28 @@ a:hover {
 }
 
 .navigation-content a {
-  background: #ffffff;
-  color: #000000!important;
+  background: #fff;
+  color: #000 !important;
   display: block;
   padding: 10px;
   width: 150px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
 }
 
 .navigation-content a:hover {
   color: #8cb3d9 !important;
-  background-color: #eeccdd;
+  background-color: #ecd;
 }
 
 #links a {
-  color: #ffffff;
+  color: #fff;
   margin-right: 10px;
 }
 
 #links a:hover {
-  color: #eeccdd;
+  color: #ecd;
 }
 
 #panels-wrapper {
@@ -158,13 +151,12 @@ a:hover {
 }
 
 #panel, #panel-two, #panel-three, #panel-four {
-  background: rgb(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, .6);
   border-bottom: 1px solid #d9e6f2;
   float: left;
   height: auto;
-  top: 0px;
+  top: 0;
   width: 100%;
-  padding: 0;
 }
 
 .panel-container {
@@ -176,15 +168,15 @@ a:hover {
 }
 
 .panel-title {
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: .9rem;
+  font-weight: bold;
   text-align: left;
   text-transform: uppercase;
   padding: 0 .5em;
 }
 
 .panel-border {
-  background: #eeccdd;
+  background: #ecd;
   height: 3px;
   margin-bottom: 18px;
   margin-top: 18px;
@@ -209,17 +201,14 @@ a:hover {
 }
 
 .intro {
-  background: #ffffff;
-  border-left: 3px solid #eeccdd;
+  background: #fff;
+  border-left: 3px solid #ecd;
   padding: 10px;
   height: auto;
-  margin-left: 0px;
-  margin-top: 0px;
   width: 247px;
 }
 
 .box, .box-one {
-  margin: 0px;
   overflow: hidden;
   width: 320px;
 }
@@ -231,29 +220,29 @@ a:hover {
 }
 
 .item-image img {
-  border: 1px solid #eeccdd;
+  border: 1px solid #ecd;
   height: 250px;
   position: absolute;
   width: 250px;
 }
 
 .item-name {
-  font-size: 0.9rem;
+  font-size: .9rem;
   position: absolute;
-  opacity: 70%;
+  opacity: .7;
   text-transform: uppercase;
 }
 
 .item-name a {
   background: #8cb3d9;
   border: 1px solid #8cb3d9;
-  color: #ffffff;
+  color: #fff;
   display: inline-block;
   padding: 10px;
 }
 
 .item-name a:hover {
-  background: #ffffff;
+  background: #fff;
   color: #8cb3d9;
 }
 
@@ -264,7 +253,7 @@ a:hover {
 
 .card {
   overflow: hidden;
-  border: 1px solid #eeccdd;
+  border: 1px solid #ecd;
   float: left;
   margin: 10px;
   width: 250px;
@@ -295,14 +284,12 @@ a:hover {
 .about-wrapper {
   overflow: hidden;
   padding: 10px 10px 22px;
-  margin: 0px;
   width: 320px;
 }
 
 .about-lead {
   border-bottom: 1px solid #eee;
   float: left;
-  margin: 0;
   margin-bottom: 10px;
   padding-bottom: 10px;
   text-transform: none;
@@ -316,7 +303,7 @@ a:hover {
   align-items: center;
   padding-top: 1rem;
   background-color: #f2f2f2;
-  border-top: 3px solid #eeccdd;
+  border-top: 3px solid #ecd;
   color: #8cb3d9;
   width: 100%;
 }
@@ -349,7 +336,7 @@ a:hover {
   margin-left: auto;
   padding: 0 1rem;
   display: flex;
-  opacity: 70%;
+  opacity: .7;
 }
 
 .social > li {
@@ -409,7 +396,6 @@ a:hover {
   }
 
   .box {
-    margin: 0px;
     overflow: hidden;
     width: 470px;
   }
@@ -442,18 +428,14 @@ a:hover {
 
   .intro {
     height: auto;
-    margin-left: 0px;
-    margin-top: 0px;
     width: 397px;
   }
 
   .about-wrapper {
-    margin: 0px;
     width: 470px;
   }
 
   .about-lead {
-    margin: 0px;
     margin-bottom: 10px;
     width: 470px;
   }

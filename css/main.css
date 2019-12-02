@@ -384,6 +384,10 @@ a:hover {
     padding-left: 0;
   }
 
+  .about-lead {
+    margin-left: -10px;
+  }
+
   .card {
     margin: 0 0 15px;
     width: 320px;
@@ -432,6 +436,10 @@ a:hover {
   .item-image img {
     width: 240px;
     height: 250px;
+  }
+
+  .item-name {
+    font-size: .7rem;
   }
 
   .intro {
@@ -488,8 +496,6 @@ a:hover {
   }
 
   .item-wrapper {
-    float: left;
-    height: 250px;
     margin: 10px;
     width: 250px;
   }
@@ -497,10 +503,6 @@ a:hover {
   .item-image img {
     width: 248px;
     height: 248px;
-  }
-
-  .item-name {
-    font-size: .7rem;
   }
 
   .about-wrapper {
@@ -541,12 +543,13 @@ a:hover {
     display: block;
     margin: 0;
     padding: .3rem 1rem;
+    text-align: center;
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     text-transform: uppercase;
-    font-size: .9rem;
+    font-size: .7rem;
     color: #79a6d2;
     border: 2px dotted #8cb3d9;
     background-color: rgba(255, 255, 255, .8);

@@ -26,9 +26,8 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: #fff;
   background-image: url('https://i.imgur.com/vb5JvBg.png');
-  background-repeat: repeat;
   color: #555555;
   cursor: url(https://i.imgur.com/lhPqll6.png), progress;
   font-size: 1rem;
@@ -195,9 +194,7 @@ a:hover {
 
 .panel-content {
   text-transform: none;
-  text-align: justify;
-  word-break: break-all;
-  padding: 0 .5em;
+  padding: 0 .5em .5em;
 }
 
 .intro-content {
@@ -317,7 +314,7 @@ a:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  padding: 1rem 0;
+  padding-top: 1rem;
   background-color: #f2f2f2;
   border-top: 3px solid #eeccdd;
   color: #8cb3d9;
@@ -341,7 +338,7 @@ a:hover {
 }
 
 .footer a {
-  color: #003442;
+  color: #4d4d4d;
 }
 
 .links {
@@ -361,10 +358,11 @@ a:hover {
 }
 
 .copyright {
-  padding: 0 1rem;
+  padding: 1rem;
   width: 100%;
   color: #8cb3d9;
   font-size: .6em;
+  background-color: #4d4d4d;
 }
 
 @media only screen and (min-width: 25em) {

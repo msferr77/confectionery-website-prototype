@@ -221,7 +221,7 @@ a:hover {
   width: 247px;
 }
 
-.box {
+.box, .box-one {
   margin: 0px;
   overflow: hidden;
   width: 320px;
@@ -303,13 +303,68 @@ a:hover {
 }
 
 .about-lead {
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
   float: left;
   margin: 0;
   margin-bottom: 10px;
   padding-bottom: 10px;
   text-transform: none;
   width: 320px;
+}
+
+.footer {
+  display: inline-flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 0;
+  background-color: #f2f2f2;
+  border-top: 3px solid #eeccdd;
+  color: #8cb3d9;
+  width: 100%;
+}
+
+.footer h2 {
+  text-transform: uppercase;
+  font-size: .8em;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer ul {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-left: 0;
+  list-style-type: none;
+  font-size: .7em;
+}
+
+.footer a {
+  color: #003442;
+}
+
+.links {
+  padding: 0 3rem;
+}
+
+.social {
+  margin-left: auto;
+  padding: 0 1rem;
+  display: flex;
+  opacity: 70%;
+}
+
+.social > li {
+  margin: 0 .5em;
+  width: 3em;
+}
+
+.copyright {
+  padding: 0 1rem;
+  width: 100%;
+  color: #8cb3d9;
+  font-size: .6em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -357,9 +412,26 @@ a:hover {
     width: 470px;
   }
 
-  .image, .image img, .item-wrapper, .item-image img, .card {
+  .image, .image img, .item-wrapper, .card {
     height: 470px;
     width: 470px;
+  }
+
+  .box-one {
+    margin: -10px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item-wrapper {
+    width: 50%;
+    height: 250px;
+  }
+
+  .item-image img {
+    width: 240px;
+    height: 250px;
   }
 
   .intro {
@@ -410,7 +482,7 @@ a:hover {
     width: 350px;
   }
 
-  .box {
+  .box, .box-one {
     margin: -10px;
     width: 840px;
   }

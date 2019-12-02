@@ -41,6 +41,7 @@ b {
 }
 
 a {
+  color: #ff99bb;
   text-decoration:  none;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -199,6 +200,12 @@ a:hover {
   padding: 0 .5em;
 }
 
+.intro-content {
+  text-transform: none;
+  padding: 1em .5em;
+  font-size: .8em;
+}
+
 .image, .image img {
   height: 320px;
   width: 320px;
@@ -275,13 +282,13 @@ a:hover {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  padding: 1rem 1rem 1rem calc(1rem - 4px);
   border: 2px dotted #8cb3d9;
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(255, 255, 255, .8);
   position: absolute;
   width: 100%;
   left: 0;
-  top: 30%;
+  top: 40%;
 }
 
 .card-head {
@@ -318,7 +325,7 @@ a:hover {
     width: 320px;
   }
 
-  .panel-title, .panel-content {
+  .panel-title, .panel-content, .intro-content {
     padding-left: 0;
   }
 
@@ -356,7 +363,6 @@ a:hover {
   }
 
   .intro {
-    background: #f8f8f8;
     height: auto;
     margin-left: 0px;
     margin-top: 0px;
@@ -387,7 +393,7 @@ a:hover {
     height: 350px;
     margin-left: 350px;
     margin-top: -350px;
-    padding: 35px;
+    padding: 20px;
     width: 440px;
   }
 
@@ -445,6 +451,10 @@ a:hover {
     margin: 10px;
   }
 
+  .img-flex {
+    height: 248px;
+  }
+
   .card-label {
     display: none;
   }
@@ -467,7 +477,7 @@ a:hover {
     font-size: .9rem;
     color: #79a6d2;
     border: 2px dotted #8cb3d9;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, .8);
   }
 
 }

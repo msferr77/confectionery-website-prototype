@@ -119,9 +119,17 @@ a:hover {
   z-index: 1;
 }
 
+#links a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+#links a:hover {
+  color: #ecd;
+}
+
 .navigation-content a {
-  background: #fff;
-  color: #000 !important;
+  background: #ecd;
   display: block;
   padding: 10px;
   width: 150px;
@@ -131,17 +139,7 @@ a:hover {
 }
 
 .navigation-content a:hover {
-  color: #8cb3d9 !important;
-  background-color: #ecd;
-}
-
-#links a {
-  color: #fff;
-  margin-right: 10px;
-}
-
-#links a:hover {
-  color: #ecd;
+  background-color: #4d4d4d;
 }
 
 #panels-wrapper {

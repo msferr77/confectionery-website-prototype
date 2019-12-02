@@ -55,8 +55,7 @@ a:hover {
   background: #8cb3d9;
   border-bottom: 3px solid #ecd;
   font-size: .9rem;
-  padding-bottom: 13px;
-  padding-top: 13px;
+  padding: 15px 0 5px;
   position: fixed;
   text-align: left;
   text-transform: uppercase;
@@ -77,8 +76,7 @@ a:hover {
 
 .ln-wrapper {
   display: inline-block;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 10px -25px;
 }
 
 .navigation {
@@ -140,6 +138,11 @@ a:hover {
 
 .navigation-content a:hover {
   background-color: #4d4d4d;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
 }
 
 #panels-wrapper {
@@ -352,6 +355,19 @@ a:hover {
 
 @media only screen and (min-width: 25em) {
 
+  #links {
+    padding: 10px 0 5px;
+  }
+
+  .ln-wrapper {
+    margin-left: -20px;
+  }
+
+  .title {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
   .item-wrapper {
     height: 320px;
     margin: 0 0 15px;
@@ -387,6 +403,10 @@ a:hover {
 
   .title, .ln-wrapper {
     margin-top: 5px;
+  }
+
+  #links {
+    padding: 13px 0 5px;
   }
 
   .panel-container {
